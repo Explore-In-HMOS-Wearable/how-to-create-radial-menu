@@ -1,7 +1,5 @@
 > **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS-Wearable Index](https://github.com/Explore-In-HMOS-Wearable/hmos-index).
 
-> **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS-Wearable Index](https://github.com/Explore-In-HMOS-Wearable/hmos-index).
-
 # How To Create Radial Menu in Wearable
 Radial Menu is a HarmonyOS NEXT wearable device codelab, developed using ArkTS. 
 It demonstrates how to implement a circular navigation interface that opens with a button press, providing quick access to functions and apps. 
@@ -10,9 +8,9 @@ Built with ArkUI, it showcases smooth, intuitive interaction for smartwatch navi
 # Preview
 
 <div>
-  <img src="Screenshots/outputRadial.gif" width="25%" />
-  <img src="Screenshots/Screenshot-1.png" width="25%" />
-  <img src="Screenshots/output2.png" width="25%" />
+  <img src="screenshots/ss_1.gif" width="25%" />
+  <img src="screenshots/ss_2.png" width="25%" />
+  <img src="screenshots/ss_3.png" width="25%" />
 </div>
 
 # Use Cases

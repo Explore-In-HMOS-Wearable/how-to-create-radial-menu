@@ -2,7 +2,6 @@ import { UIContext, PromptAction} from '@kit.ArkUI';
 
 @Entry
 @Component
-
 export struct RadialMenu {
 
 
@@ -14,7 +13,7 @@ export struct RadialMenu {
     $r('sys.symbol.game'),
     $r('sys.symbol.clock'),
     $r('sys.symbol.trash'),
-    $r('sys.symbol.radio'),
+    $r('sys.symbol.radio')
   ];
 
   private menuItemColors: Array<string> = [
@@ -63,7 +62,7 @@ export struct RadialMenu {
       builder: () => this.customDialogBuilder(item),
       width: 70,
       height: 70,
-      backgroundColor: this.menuItemColors[index],
+      backgroundColor: this.menuItemColors[index]
     })
   }
 
@@ -112,7 +111,7 @@ export struct RadialMenu {
               .onClick(() => this.onMenuItemClickHandler(item, index))
           }
         }
-      }, (item: Resource) => item.id.toString())
+      }, (item: Resource, index:number) => item.id.toString())
       Button() {
         SymbolGlyph(this.menuVisible ? $r('sys.symbol.xmark') : $r('sys.symbol.line_3_horizontal'))
           .fontColor([$r('sys.color.white')])
